@@ -1,0 +1,10 @@
+--- /ext/ae/ae/tilemap.h.orig	2024-12-15 09:33:24.335876376 -0700
++++ /ext/ae/ae/tilemap.h	2024-12-15 09:33:30.252619099 -0700
+@@ -22,6 +22,7 @@
+ #include <unordered_map>
+ #include <map>
+ #include <string>
++#include <cstdint>
+ 
+ namespace ae {
+ 
