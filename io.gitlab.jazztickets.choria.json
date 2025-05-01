@@ -17,6 +17,10 @@
 					"type": "archive",
 					"url": "https://gitlab.com/jazztickets/uploads/-/raw/main/choria-1.1.0-b3de0f4a-src.tar.gz",
 					"sha256": "ec8032247d6c21ec0f9aca74c662f6faaa1683bd41ff9415c66abcf1ef1fa2cc"
+				},
+				{
+					"type": "patch",
+					"path": "xml.patch"
 				}
 			]
 		}

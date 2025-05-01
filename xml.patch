@@ -1,0 +1,24 @@
+diff --git a/deployment/choria.xml b/deployment/choria.xml
+index c1057582..ede85232 100644
+--- a/deployment/choria.xml
++++ b/deployment/choria.xml
+@@ -6,7 +6,7 @@
+ 		<name>jazztickets</name>
+ 	</developer>
+ 	<name>choria</name>
+-	<summary>Finally, an MMORPG that's all about grinding and doing chores</summary>
++	<summary>Old school multiplayer RPG</summary>
+ 	<description>
+ 		<p>Choose from 14 different starting builds with various play styles as you travel through caves, desert, swamp, lava, and ice to fight 40+ different monsters and conquer 20+ bosses using a streamlined battle system that supports 8 vs 8 fighters.</p>
+ 		<p>During your journey, you'll find new gear to purchase, blacksmiths that can upgrade gear, traders with special skills and items, plus a lengthy endgame.</p>
+@@ -20,6 +20,10 @@
+ 	<url type="homepage">https://choria.gitlab.io</url>
+ 	<url type="bugtracker">https://gitlab.com/choria/code/-/issues</url>
+ 	<project_license>GPL-3.0-only</project_license>
++	<branding>
++		<color type="primary" scheme_preference="light">#daebd6</color>
++		<color type="primary" scheme_preference="dark">#131f15</color>
++	</branding>
+ 	<screenshots>
+ 		<screenshot>
+ 			<caption>Fighting monsters with a friend</caption>
